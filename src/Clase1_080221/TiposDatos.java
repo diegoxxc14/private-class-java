@@ -1,6 +1,6 @@
-package ejercicios;
+package Clase1_080221;
 
-public class Ejecutor {
+public class TiposDatos {
 
     public static void main(String args[]) {
         //Tipos de datos en Java
