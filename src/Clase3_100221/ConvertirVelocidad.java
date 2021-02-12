@@ -8,9 +8,9 @@ public class ConvertirVelocidad {
         //Programa que pase una velocidad en Km/h a m/s. La velocidad se lee por teclado.
         Scanner leer = new Scanner(System.in);
         System.out.println("Velocidad (km/h): ");
-        double v = leer.nextDouble();
+        double velocidad = leer.nextDouble();
         
-        double res = (v * 1000) / 3600;
+        double res = (velocidad * 1000) / 3600;
         
         System.out.println("(m/s): " + res);
     }
